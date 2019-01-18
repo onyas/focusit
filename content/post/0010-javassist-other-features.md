@@ -1,6 +1,8 @@
 ---
 title: Javassist入门之其他特性
 date: 2017-01-21T19:12:20+08:00
+categories:
+  - Java
 tags:
   - java
   - javassist

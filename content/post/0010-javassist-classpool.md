@@ -1,6 +1,8 @@
 ---
 title: Javassist入门之ClassPool简介
 date: 2017-01-20T19:12:20+08:00
+categories:
+  - Java
 tags:
   - javassist
   - 翻译

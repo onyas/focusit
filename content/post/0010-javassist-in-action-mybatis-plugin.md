@@ -1,6 +1,8 @@
 ---
 title: Javassist实战之Idea-mybatis插件破解
 date: 2017-01-18T19:12:20+08:00
+categories:
+  - Java
 tags:
   - java
   - javassist
@@ -19,7 +21,7 @@ tags:
 
 1.将下载的插件解压缩。
 
-![image](0010-javassist-in-action-mybatis-plugin/down-idea.png)
+![image](/0010-javassist-in-action-mybatis-plugin/down-idea.png)
 
 2.编写破解代码
 
@@ -58,7 +60,7 @@ tags:
 
 2.如下图所示
 
-![image](0010-javassist-in-action-mybatis-plugin/install.png)
+![image](/0010-javassist-in-action-mybatis-plugin/install.png)
 
 3.导入刚才的jar包就可以了。
 

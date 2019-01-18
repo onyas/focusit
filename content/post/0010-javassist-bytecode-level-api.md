@@ -1,6 +1,8 @@
 ---
 title: Javassist入门之字节码接口
 date: 2017-01-20T19:12:20+08:00
+categories:
+  - Java
 tags:
   - java
   - javassist

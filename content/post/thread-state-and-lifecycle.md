@@ -1,11 +1,12 @@
 ---
 title: java线程状态和生命周期
 date: 2017-01-10T19:12:20+08:00
+categories:
+  - Java
 tags:
-   - java
-   - thread
-   - 翻译
-   
+  - java
+  - thread
+  - 翻译
 ---
 
 这是UML协议状态机图的一个例子，它显示了Java中Thread类的线程状态和线程生命周期;线程是一个轻量级的进程，是调度执行的最小单位,Java中的Thread类的实例可能处于以下状态之一：
@@ -19,7 +20,7 @@ tags:
 
 这些状态是JVM向Java程序报告的Java虚拟机（JVM）状态。在任何给定的时间点，线程可能只处于一个状态。
 
-![image](thread-state-and-lifecycle/state-machine-thread-states.png)
+![image](/thread-state-and-lifecycle/state-machine-thread-states.png)
 
 **New** 这个是刚创建但是还没有启动的状态
 
