@@ -1,0 +1,15 @@
+# focusit
+
+[个人博客](https://www.focusit.me/)的源代码
+
+## Requirement
+
+* hugo
+
+## Usage
+
+```
+hugo server --watch=true --destination=public --bind="0.0.0.0" --port=8080
+```
+
+then open browser to [http://localhost:8080/](http://localhost:8080/)
