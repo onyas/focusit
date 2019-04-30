@@ -6,12 +6,12 @@ categories:
 tags: 
   - heroku
 ---
-
 heroku提供的免费网站可以用于构建个人网站，非常适用于实验性质或是简单的博客系统。但是网上的文档大多数是拷贝的，没有一个完整或者靠谱的文章，本文会详细说明自已在搭建的过程中遇到的各种问题及解决办法。
+<!--more-->
 
 ## 1. 注册帐号
 
-建议用gmail的邮箱去https://www.heroku.com/官网注册，非常简单，不多说了
+建议用gmail的邮箱去[https://www.heroku.com/](https://www.heroku.com/)官网注册，非常简单，不多说了
 
 ## 2. 安装CLI
 
@@ -25,7 +25,7 @@ heroku提供的免费网站可以用于构建个人网站，非常适用于实�
 
 因为部署到heroku是需要跟git相结合的，所以你需要在github上面建一个repo来存放你的代码。如果你还没有准备好，可以先用我做好的拿来当demo, 在当前目录执行 git clone https://github.com/onyas/vip-url-resolve.git
 
-## 5. 用heroku创建用应用
+## 5. 用heroku创建应用
 
 1. cd vip-url-resolveheroku create #appname要求唯一，所以如果重复了会提示创建不成功
 

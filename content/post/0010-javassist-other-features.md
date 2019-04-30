@@ -14,7 +14,7 @@ tags:
 Javassist 的低级别 API 完全支持 Java 5 引入的泛型。但是，高级别的API（如CtClass）不直接支持泛型。
 
 Java 的泛型是通过擦除技术实现。 编译后，所有类型参数都将被删除。 例如，假设您的源代码声明一个参数化类型 Vector<String>：
-
+<!--more-->
 ```
 	Vector<String> v = new Vector<String>();
 	  :

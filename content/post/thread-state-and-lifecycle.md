@@ -10,7 +10,7 @@ tags:
 ---
 
 这是UML协议状态机图的一个例子，它显示了Java中Thread类的线程状态和线程生命周期;线程是一个轻量级的进程，是调度执行的最小单位,Java中的Thread类的实例可能处于以下状态之一：
-
+<!--more-->
 - new
 - runnable
 - timed waiting

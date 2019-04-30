@@ -16,7 +16,7 @@ tags:
 3. 在该CtClass对象上调用writeFile()或toBytecode()来获取修改的类文件。
 
 如果在加载时才能确定一个类是否被修改，用户必须使Javassist与类加载器协作。Javassist可以与类加载器一起使用，以便在加载时可以修改字节码。 Javassist的用户可以定义自己的类加载器版本，但也可以使用Javassist提供的类加载器。
-
+<!--more-->
 ### Ctclass中的toClass方法
 
 CtClass提供了一个方便的方法toClass()，它为当前线程 加载由CtClass对象表示的类 请求上下文类加载器。要调用此方法，调用者必须具有适当的权限; 否则可能会抛出SecurityException。

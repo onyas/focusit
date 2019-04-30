@@ -12,7 +12,7 @@ tags:
 Javassist 还提供了用于直接编辑类文件的低级级 API。 使用此 API之前，你需要详细了解Java 字节码和类文件格式，因为它允许你对类文件进行任意修改。
 
 如果你只想生成一个简单的类文件，使用javassist.bytecode.ClassFileWriter就足够了。 它比javassist.bytecode.ClassFile更快而且更小。
-
+<!--more-->
 ### 获取 ClassFile 对象
 
 javassist.bytecode.ClassFile 对象表示类文件。要获得这个对象，应该调用 CtClass 中的 getClassFile() 方法。

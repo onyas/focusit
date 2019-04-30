@@ -11,7 +11,7 @@ tags:
 ClassPool对象是CtClass对象的容器。 一旦创建了一个CtClass对象，它将被记录在ClassPool中，这是因为编译器当编译由该ClassPool对象引用的源代码时，可能稍后需要访问该ClassPool对象。
 
 例如，假设一个新方法getter()被添加到表示Point类的CtClass对象中。之后，该程序尝试编译源代码，包括在Point中的getter()方法调用，并使用编译的代码作为方法的主体，这将被添加到另一个类Line。如果表示Point的CtClass对象丢失，则编译器无法编译getter()方法调用。请注意，原始类定义不包括getter()。因此，为了正确编译这种方法调用，ClassPool必须在程序执行时包含CtClass的所有实例。
-
+<!--more-->
 ### 避免内存溢出
 
 如果CtClass对象的数量变得非常大，那么ClassPool的这个规范可能会导致巨大的内存消耗（这很少发生，因为Javassist尝试以各种方式减少内存消耗）。为了避免此问题，您可以从ClassPool中显式删除不必要的CtClass对象。如果在CtClass对象上调用detach()，那么该CtClass对象将从ClassPool中删除。例如，

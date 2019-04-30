@@ -10,7 +10,7 @@ tags:
 ---
 
 CtClass提供了自我检查的方法。Javassist的自我检查的能力与Java反射API兼容。CtClass提供了getName()，getSuperclass()，getMethods()等等。CtClass还提供了修改类定义的方法。它允许添加一个新的字段，构造函数和方法。构造方法体也是可能的。
-
+<!--more-->
 方法由CtMethod对象表示。CtMethod提供了几种修改方法定义的方法。请注意，如果方法是从超类继承的，那么表示继承方法的相同CtMethod对象代表在该超级类中声明的方法。CtMethod对象对应于每个方法声明。
 
 例如，如果类Point声明方法move()，并且Point的子类ColorPoint不会覆盖move()，则Point中声明并在ColorPoint中继承的两个move()方法由相同的CtMethod对象表示。 如果由此CtMethod对象表示的方法定义被修改，则修改将反映在这两个方法上。 如果要仅修改ColorPoint中的move()方法，则首先必须向ColorPoint添加一个表示Point中的move()的CtMethod对象的副本。 CtMethod对象的副本可以通过CtNewMethod.copy()获得。

@@ -16,7 +16,7 @@ tags:
 * Better-zip
  
 * 从https://plugins.jetbrains.com/plugin/7293?pr=idea查找使用自己机器上idea版本的插件。
-
+<!--more-->
 ### 破解
 
 1.将下载的插件解压缩。
