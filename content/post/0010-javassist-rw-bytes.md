@@ -9,7 +9,6 @@ tags:
   - 翻译	 
 ---
 Javassist是处理Java字节码的类库，Java字节码存储在称为class文件的二进制文件中，每个class文件都包含一个Java类或接口。
-<!--more-->
 类Javassist.CtClass是class文件的抽象表示，一个CtClass（编译时类）对象是处理class文件的句柄。以下程序是一个非常简单的例子：
 <!--more-->
 ```
