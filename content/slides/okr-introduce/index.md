@@ -1,7 +1,7 @@
 ---
 title: 'OKR Introduce'
 date: "2018-06-02T16:43:02-04:00"
-url: "/slides/okr-introduce"
+url: "/slides/okr-introduce/"
 ---
 class: center, middle
 # OKR Introduce
@@ -48,7 +48,7 @@ If the KRs include words like “consult,” “help,” “analyze,” “parti
 # How to develop OKR
 
 <p style="text-align: center;">
-  <img src="https://focusit.me/okr/okr-timeline.jpg" alt="okr timeline" style="width: 60%;">
+  <img src="okr-timeline.jpg" alt="okr timeline" style="width: 60%;">
 </p>
 
 ---
