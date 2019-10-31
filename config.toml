@@ -22,12 +22,6 @@ title = "解忧胖酒屋"
     weight = 3
 
   [[menu.main]]
-    identifier = "slides"
-    name = "幻灯片"
-    url = "/slides/"
-    weight = 3
-
-  [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
