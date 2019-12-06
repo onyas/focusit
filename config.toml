@@ -12,6 +12,7 @@ title = "解忧胖酒屋"
   keywords = "golang,java,博客,团队管理,python,软件架构,大数据、敏捷、软件架构"
   description = "专注于IT互联网，包括但不限于Java、Go语言、Python、大数据、敏捷、软件架构等"
   busuanzi = true
+  favicon = "/favicon.ico"
 
 [menu]
 
