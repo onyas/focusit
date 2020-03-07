@@ -1,5 +1,5 @@
 ---
-title: <Marva Collins's Way> reading notes
+title: 《Marva Collins's Way》reading notes
 date: 2020-01-15T19:12:20+08:00
 categories:
   - reading notes
