@@ -48,3 +48,9 @@ preserveTaxonomyNames = true
 
 ## 是否禁止URL Path转小写
 disablePathToLower = true
+
+[blackfriday]
+  angledQuotes = true
+  fractions = false
+  plainIDAnchors = true
+  extensions = ["hardLineBreak"]
