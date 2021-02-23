@@ -1,5 +1,5 @@
 theme = "maupassant"
-baseURL = "https://focusit.me"
+baseURL = "https://focusit.netlify.app"
 languageCode = "zh-CN"
 title = "解忧胖酒屋"
 
