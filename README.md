@@ -1,6 +1,6 @@
 # focusit
 
-[个人博客](https://www.focusit.me/)的源代码
+[个人博客](https://focusit.netlify.app/)的源代码
 
 ## Requirement
 
