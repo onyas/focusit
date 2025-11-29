@@ -1,7 +1,7 @@
 theme = "maupassant"
-baseURL = "https://focusit.netlify.app"
+baseURL = "https://onyas.github.io/focusit"
 languageCode = "zh-CN"
-title = "解忧胖酒屋"
+title = "Edward Zheng"
 
 [author]
   name = "Edward"
