@@ -2,7 +2,11 @@
 <ul class="widget-list">
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
     <li>
-        <a href="{{ "/categories/" | absLangURL }}{{ $name | urlize }}/">{{ $name }}({{len $taxonomy}})</a>
+        {{ $url := printf "/categories/%s/" ($name | urlize) | relURL }}
+        {{ with $.Site.GetPage (printf "/categories/%s" $name) }}
+            {{ $url = .RelPermalink }}
+        {{ end }}
+        <a href="{{ $url }}">{{ $name }}({{len $taxonomy}})</a>
     </li>
     {{ end }}
 </ul>
